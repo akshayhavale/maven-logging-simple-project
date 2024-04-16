@@ -1,0 +1,1 @@
+# maven-logging-simple-project
