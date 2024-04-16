@@ -2,6 +2,10 @@
 <configuration>
 
 	<property name="DEV_HOME" value="c:/applogs" />
+	
+	
+   <!--  if you want from fetch env variables
+    <property name="DEV_HOME" value="${DEV_HOME:-c:/applogs}" />-->
 
 	<appender name="FILE-AUDIT"
 		class="ch.qos.logback.core.rolling.RollingFileAppender">
